@@ -157,8 +157,7 @@ class Score:
         screen.blit(self.img, self.rct)   
     
 
-
-def main():
+def main():#空白を1行削除
     pg.display.set_caption("たたかえ！こうかとん")
     screen = pg.display.set_mode((WIDTH, HEIGHT))    
     bg_img = pg.image.load("fig/pg_bg.jpg")
